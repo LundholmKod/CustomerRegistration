@@ -5,9 +5,9 @@ Programmet innehåller även funktion som gör det möjligt att avbryta registre
 
 **För att köra programmet krävs:**
 - Visual Studio med arbetsbelastningen .NET desktop development.
-- .NET SDK som matchar projektets TargetFramework i filen CustomerRegistration.csproj.
+- .NET 10 SDK och en Visual Studio-version som stöder .NET 10 och lösningsformatet .slnx
 
-## Som här kör du programmet i Visual Studio
+## Så här kör du programmet i Visual Studio
 1. Klona repositoryt eller ladda ner och packa upp det.
 2. Öppna lösningsfilen (.sln eller .slnx) i Visual Studio.
 3. I solution explorer: högerklicka på projektet CustomerRegistration och välj **Set as Startup Project**.
@@ -25,7 +25,7 @@ Vid saknade uppgifter, ogiltigt e-postformat eller en redan registrerad e-postad
 
 Kunderna lagras endast i minnet och försvinner när programmet avslutas
 
-## Progammet innehåller även automatiserade tester som kan köras genom att:
+## Programmet innehåller även automatiserade tester som kan köras genom att:
 
 1. Öppna **Test → Test Explorer** i Visual Studio.
 2. Klicka på **Run All Tests**.
